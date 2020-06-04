@@ -1,0 +1,28 @@
+.container {
+  width: 400px;
+}
+
+p {
+  border: solid 2px #2c2c2c;
+}
+
+.keretes {
+  border-right: solid 2px #2c2c2c;
+  border-left: solid 2px #2c2c2c;
+  border-bottom: solid 2px #2c2c2c;
+  padding: 20px;
+  margin: 0;
+}
+
+.alulnincskeret {
+  border-right: solid 2px #2c2c2c;
+  border-left: solid 2px #2c2c2c;
+  padding: 20px;
+  margin: 0;
+}
+
+.keretes:hover,
+.alulnincskeret:hover {
+  background-color: #ea6942;
+  cursor: pointer;
+}
